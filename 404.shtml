@@ -1,0 +1,44 @@
+<!-- last updated 11/2010 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>TimelyTask: Workorder System</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/vm.js"></script>
+	<meta name="description" content="Apartment Management Software for small property companiew to track service requests, apartments, and residents. Workorders sent automatic to service technicians as well as emailed to your residents." />    
+	<meta name="Keywords" content="workorder application, workorder software, service management software, field service management software, service manager software, apartment management software, apartment management application, workorder tracking, workorder dispatching" />
+	<meta name="author" content="Victoria McNichol" />
+	<!-- Google Analytics -->
+	
+</head>
+<body>
+<!-- ============================================================== TOP -->
+<div id="bgtop">
+	<div id="header">
+		<div id="logo"><h1><a href="index.php">timelyTask</a></h1></div>
+	<div class="clearfloat"></div>
+</div><!-- #bgtop -->
+<!-- =========================================================== MIDDLE -->
+<div id="bgmid">
+	<div id="content">
+		<div id="idisplay" class="main"><!-- Location of all result content -->
+			<h2>Oops!</h2>
+			<p>I'm sorry but the file you're looking for has been moved or deleted.</p>
+			<p>Return to the <a href="index.php">homepage.</a></p>
+			<div class="clearfloat"></div>
+		</div><!-- #indexdisplay -->
+	</div><!-- #content -->
+</div><!-- #bgmid -->
+<!-- =========================================================== BOTTOM -->
+<div id="bgbot">
+	<div id="footer">
+		<div id="copyright">&#169 2010 <a href="http://vmarmstrong.com" title="Contact information for Victoria Armstrong">vmarmstrong.com</a></div><!-- #copyright -->
+		<div id="acctlink"><p><a href="index.php">TimelyTask</a> | <a href="contact.php" title="Contact form">Contact Us</a> | <a href="http://www.linkedin.com/in/vmarmstrong" title="Victoria Armstrong's LinkedIn Profile">Linked in</a></p></div><!-- #acctlink -->
+	</div><!-- #footer -->
+</div><!-- #bgbot -->
+</body>
+</html>

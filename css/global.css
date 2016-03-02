@@ -1,0 +1,663 @@
+/*
+Victoria McNichol
+407-588-7160
+vmcnichol@gmail.com
+vmcnichol.com
+Copyright 2010
+*/
+/* ===================================================================== */
+/* ========================================== GENERAL ELEMENT FORMATTING */
+*{
+	margin:						0;
+	padding:					0;
+	}
+body{
+	background:					#f2f2e6 url(../img/bg.jpg) repeat;
+	color:						#4c4740;
+	font-family:				'PT Sans', arial, serif;
+	font-size:					.625em;
+	font-size:					1.1em;
+	}
+h1, h2, a{
+	color:						#df7130;
+	}
+a{
+	outline:					none;
+	}
+h2{
+	padding-bottom:				20px;
+	}
+input, select, textarea{
+	border:						solid 1px #4c4740;
+	padding:					0 5px;
+	-moz-border-radius:			5px;
+	-webkit-border-radius:		5px;
+	height:						25px;
+	line-height:				25px;
+	font-size:					14px;
+	}
+#display div.ques p.l, label{
+	font-size:					12px;
+	line-height:				1.1em;
+	padding:					0;
+	}
+.submitbtn{
+	background-color:			#df7130;
+	color:						#fff;
+	padding:					0 5px;
+	}
+.hidden{
+	display:					none;
+	}
+table{
+	margin-bottom:				25px;
+	}
+/* ===================================================================== */
+/* =================================================== BACKGROUND IMAGES */
+#bgtop{
+	background:					url(../img/header.jpg) repeat-x;
+	height:						110px;
+	}
+#bgmid{
+	background-color:			#fff;
+	min-height:					250px;
+	}
+#bgbot{
+	background:					url(../img/footer.jpg) repeat-x;
+	height:						75px;
+	}
+/* ===================================================================== */
+/* ===================================================== WIDTHS & FLOATS */
+.clearfloat{
+	clear:						both;
+	}
+.w75{
+	width:						75px;
+	}
+#header{
+	width:						985px;
+	margin:						0 auto;
+	height:						110px;
+	}
+#logo{
+	width:						200px;
+	height:						110px;
+	float:						left;
+	line-height:				110px;
+	}
+#search{
+	width:						450px;
+	height:						110px;
+	float:						left;
+	line-height:				110px;
+	}
+#acct{
+	width:						325px;
+	height:						85px;
+	float:						left;
+	padding-top:				25px;
+	text-align:					right;
+	font-size:					.7em;
+	line-height:				1.5em;
+	}
+#content{
+	width:						985px;
+	margin:						0 auto;
+	}
+#nav{
+	background:					url(../img/navbar.png) repeat-y;
+	padding-top:				51px;
+	width:						220px;
+	float:						left;
+	list-style:					none;
+	}
+#nav li a{
+	display:					block;
+	height:						51px;
+	text-indent:				-99999px;
+	}
+#display{
+	float:						right;
+	width:						730px;
+	padding:					30px 0 30px 30px;
+	}
+#idisplay, #cdisplay{
+	width:						730px;
+	margin:						0 auto;
+	padding:					50px 0;
+	}
+#footer{
+	width:						985px;
+	height:						60px;
+	margin:						0 auto;
+	line-height:				50px;
+	}
+/* ===================================================================== */
+/* ============================================================== HEADER */
+h1 a{
+	display:					block;
+	height:						75px;
+	width:						175px;
+	margin-top:					20px;
+	background:					url(../img/logo.png) no-repeat;
+	text-indent:				-99999px;
+	}
+#key{
+	width:						130px;
+	font-size:					.7em;
+	}
+#page{
+	border:						solid 1px #4c4740;
+	height:						28px;
+	width:						120px;
+	padding-top:				3px;
+	font-size:					.75em;
+	}
+#search #searchbtn{
+	width:						50px;
+	height:						28px;
+	border:						none;
+	font-size:					1em;
+	background-color:			#df7130;
+	color:						#fff;
+	padding:					0 5px 3px;
+	vertical-align:				middle;
+	}
+/* ===================================================================== */
+/* ========================================================== LOGIN FORM */
+#loginform{
+	padding-top:				30px;
+	float:						right;
+	text-align:					right;
+	}
+#loginform form p input{
+	width:						125px;
+	}
+#loginform #login{
+	width:						50px;
+	}
+#loginstatus{
+	font-size:					.75em;
+	text-align:					left;
+	}
+#loginform #remember{
+	width:						20px;
+	}
+/* ===================================================================== */
+/* ============================================================== FOOTER */
+#footer{
+	font-size:					.7em;
+	}
+#copyright{
+	float:						left;
+	}
+#acctlink{
+	float:						right;
+	}
+/* ===================================================================== */
+/* ================================================================= NAV */
+#open{
+	background:					url(../img/nav.jpg) no-repeat;
+	background-position:		0 0;
+	}
+#open:hover{
+	background-position:		-220px 0;
+	}
+#open.active{
+	background-position:		-440px 0;
+	}
+#new{
+	background:					url(../img/nav.jpg) no-repeat;
+	background-position:		0 -51px;
+	}
+#new:hover{
+	background-position:		-220px -51px;
+	}
+#new.active{
+	background-position:		-440px -51px;
+	}
+#report{
+	background:					url(../img/nav.jpg) no-repeat;
+	background-position:		0px -102px;
+	}
+#report:hover{
+	background-position:		-220px -102px;
+	}
+#report.active{
+	background-position:		-440px -102px;
+	}
+/* ===================================================================== */
+/* ============================================================= DISPLAY */
+h2{
+	padding-bottom:				20px; 
+	}
+#display p{
+	font-size:					1.1em;	
+	}
+form span.secondlink a{
+	color:						#4c4740;
+	font-size:					.8em;
+	padding-left:				10px;
+	}
+form span.printlink a{
+	font-size:					.8em;
+	padding-left:				10px;
+	}
+/* ===================================================================== */
+/* ======================================================== DISPLAY FORM */
+#display form p{
+	padding-bottom:				0;
+	}
+.ques{
+	padding:					10px;
+	}
+.ques .i, .ques .e{
+	display:					block;
+	width:						250px;
+	float:						left;
+	padding:					0;
+	}
+.e{
+	color:						red;
+	}
+#display .e{
+	margin-left:				250px;
+	padding-top: 				5px;
+	}
+.ques input{
+	width:						90%;
+	}
+.ques select{
+	width:						95%;
+	}
+.ques select.date{
+	width:						30%;
+	}
+form .submitbtn{
+	background-color:			#df7130;
+	width:						75px;
+	color:						#fff;
+	padding:					0 5px;
+	}
+/* ===================================================================== */
+/* =============================================================== INDEX */
+#idisplay #cta{
+	height:						300px;
+	margin-bottom:				50px;
+	background:					url(../img/cta.png) no-repeat;
+	}
+#idisplay #cta #action a{
+	margin-right:				45px;
+	margin-top:					213px;
+	text-indent:				-99999px;
+	display:					block;
+	float:						right;
+	width:						280px;
+	height:						50px;
+	padding-left:				50px;
+	}
+.vList{
+	width:						314px;
+	height:						100px;
+	padding:					0 25px 30px 25px;
+	display:					block;
+	float:						left;
+	}
+.vList h4{
+	padding:					10px 0 15px 90px;
+	}
+.vList p{
+	padding-left:				90px;
+	font-size:					.85em;
+	line-height:				1.3em;
+	}
+#feature{
+	background:					url(../img/icon/check.png) no-repeat;
+	}
+#price{
+	background:					url(../img/icon/tag.png) no-repeat;
+	}
+.benefits{
+	padding:					20px;
+	}
+/* ===================================================================== */
+/* ============================================================= CONTACT */
+form.contact{
+	padding:					20px;
+	background-color:			#f2f2e6;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.contact fieldset{
+	width:						290px;
+	display:					block;
+	float:						left;
+	margin:						0 20px;
+	padding:					5px;
+	border:						1px dashed #df7130;
+	}
+form.contact legend{
+	padding:					10px;
+	color:						#4c4740;
+	}
+form.contact p{
+	padding-bottom:				0;
+	}
+form.contact .btns{
+	text-align:					right;
+	margin-right:				20px;
+	}
+/* ===================================================================== */
+/* ======================================================== USER PROFILE */
+form.user, table.user, div.user{
+	padding:					20px;
+	background-color:			#f2f2e6;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.user fieldset, div.user fieldset{
+	margin:						0 20px;
+	padding:					5px;
+	border:						1px dashed #df7130;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.user legend, div.user legend{
+	padding:					10px;
+	color:						#4c4740;
+	}
+form.user p, div.user p{
+	padding-bottom:				0;
+	}
+form.user .l, div.user .l{
+	width:						200px;
+	display:					block;
+	float:						left;
+	text-align:					right;
+	line-height:				1.1em;
+	}
+form.user .i, div.user .i{
+	width:						300px;
+	margin-left:				50px;
+	display:					block;
+	float:						left;
+	padding:					0;
+	}
+/* ===================================================================== */
+/* =============================================================== TABLE */
+table{
+	width:						730px;
+	font-size:					.8em;
+	}
+table td{
+	padding:					10px 10px 10px 5px;
+	}
+table thead{
+	height:						40px;
+	background:					url(../img/line.png) repeat-x;
+	background-position:		0 bottom;
+	text-align:					left;
+	}
+table tbody tr:hover{
+	color:						#df7130;
+	border:						#f2f2e6 1px dashed;
+	}
+table tbody tr:hover{
+	color:						#df7130;
+	border:						#f2f2e6 1px dashed;
+	}
+/* ===================================================================== */
+/* ========================================================= NEW REQUEST */
+.left{
+	float:						left;
+	width:						275px;
+	}
+.right{
+	float:						right;
+	width:						400px;
+	}
+#wo .right p#notifyp label, #wo .right p#enterp label{
+	display:					inline-block;
+	width:						170px;
+	}
+#wo p#notifyp input, #wo p#enterp input{
+	width:						30px;
+	height:						25px;
+	}
+#wo form.wo h3, #wo div.wo h3{
+	padding-top:				20px;
+	}
+form#unitform .submitbtn{
+	background-color:			#df7130;
+	border:						none;
+	width:						150px;
+	color:						#fff;
+	padding:					0 5px;
+	}
+form#unitform .submitbtn:hover{
+	color:						#4c4740;
+	}
+form.wo fieldset, div.wo fieldset{
+	margin:						20px 0;
+	border:						1px dashed #4c4740;
+	background-color:			#f2f2e6;
+	padding:					10px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.wo fieldset legend, div.wo fieldset legend{
+	font-size:					1.2em;
+	font-weight:				bold;
+	color:						#df7130;
+	background-color:			#f2f2e6;
+	width:						200px;
+	padding:					10px 15px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.wo .request, div.wo .request{
+	background-color:			#f2f2e6;
+	padding:					10px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	width:						710px;
+	font-size:					.8em;
+	}
+.request .right textarea{
+	width:						370px;
+	height:						50px;
+	}
+form.wo .addone{
+	font-size:					.8em;
+	padding:					10px 0;
+	}
+.checks{
+	padding:					3px 10px;
+	}
+#ltPgHead{
+	float:						left;
+	display:					block;
+	width:						400px;
+	}
+#rtPgHead{
+	float:						right;
+	width:						200px;
+	}
+#rtPgHeadList{
+	list-style:					none;
+	float:						right;
+	width:						200px;
+	}
+#rtPgHeadList li span{
+	display:					block;
+	width:						50px;
+	height:						40px;
+	text-indent:				-99999px;
+	float:						left;
+	margin:						5px 5px 20px;
+	background:					url(../img/steps.png) no-repeat;
+	}
+#s1.future{
+	background-position:		0 0;
+	}
+#s2.future{
+	background-position:		-50px 0;
+	}
+#s3.future{
+	background-position:		-100px 0;
+	}
+#s1.past{
+	background-position:		0 -40px;
+	}
+#s2.past{
+	background-position:		-50px -40px;
+	}
+#s3.past{
+	background-position:		-100px -40px;
+	}
+#s1.active{
+	background-position:		0 -80px;
+	}
+#s2.active{
+	background-position:		-50px -80px;
+	}
+#s3.active{
+	background-position:		-100px -80px;
+	}
+/* ===================================================================== */
+/* ============================================================ UNIT NAV */
+#unitnav{
+	list-style:					none;
+	padding-left:				25px;
+	}
+#unitnav li a{
+	display:					block;
+	width:						150px;
+	height:						35px;
+	text-indent:				-99999px;
+	float:						left;
+	margin:						0 4px;
+	}
+#viewunit{
+	background:					url(../img/unitnav.png) no-repeat;
+	background-position:		0 -70px;
+	}
+#viewlease{
+	background:					url(../img/unitnav.png) no-repeat;
+	background-position:		-150px -70px;
+	}
+a#viewresidents{
+	background:					url(../img/unitnav.png) no-repeat;
+	background-position:		-300px -70px;
+	}
+a#viewwo{
+	background:					url(../img/unitnav.png) no-repeat;
+	background-position:		-450px -70px;
+	}
+#viewunit:hover{
+	background-position:		0 -35px;
+	}
+#viewlease:hover{
+	background-position:		-150px -35px;
+	}
+#viewresidents:hover{
+	background-position:		-300px -35px;
+	}
+#viewwo:hover{
+	background-position:		-450px -35px;
+	}
+#viewunit.active{
+	background-position:		0 0;
+	}
+#viewlease.active{
+	background-position:		-150px 0;
+	}
+#viewresidents.active{
+	background-position:		-300px 0;
+	}
+#viewwo.active{
+	background-position:		-450px 0;
+	}
+/* ===================================================================== */
+/* ========================================================= NEW REQUEST */
+form.resident{
+	padding:					20px;
+	background-color:			#f2f2e6;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.resident fieldset{
+	margin:						0 20px;
+	padding:					5px;
+	border:						1px dashed #df7130;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.resident legend{
+	padding:					10px;
+	color:						#4c4740;
+	}
+form.resident p{
+	padding-bottom:				0;
+	}
+form.resident .l{
+	width:						200px;
+	display:					block;
+	float:						left;
+	text-align:					right;
+	line-height:				1.1em;
+	}
+form.resident .i{
+	width:						300px;
+	margin-left:				50px;
+	display:					block;
+	float:						left;
+	padding:					0;
+	}
+a.icon{
+	text-decoration:			none;
+	border:						none;
+	}
+a.icon img{
+	border:						none;
+	}
+a.back{
+	padding-left:				30px;
+	height:						25px;
+	display:					block;
+	background:					url(../img/icon/back.png) no-repeat;
+	font-size:					.8em;
+	}
+a.view{
+	padding-left:				30px;
+	height:						25px;
+	display:					block;
+	background:					url(../img/icon/view.png) no-repeat bottom left;
+	}
+#admin p{
+	height:						25px;
+	display:					block;
+	padding-bottom:				10px;
+	}
+#datepicker{
+	font-size:					.8em;
+	position:					absolute;
+	padding:					10px;
+	}
+.rSortBy{
+	padding:					10px 0;
+	}
+.opt{
+	display:					block;
+	float:						left;
+	width:						300px;
+	font-size:					.8em;
+	}
+.optData{
+	display:					block;
+	float:						left;
+	width:						400px;
+	}
+.sortSelect{
+	width:						175px;
+	}

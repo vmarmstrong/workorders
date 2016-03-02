@@ -1,0 +1,131 @@
+/*
+Victoria McNichol
+407-588-7160
+vmcnichol@gmail.com
+vmcnichol.com
+Copyright 2010
+*/
+/* ===================================================================== */
+/* ========================================== print FORMATTING */
+*{
+	margin:						0;
+	padding:					0;
+	}
+body{
+	color:						black;
+	font-family:				'PT Sans', arial, serif;
+	padding:					10px;
+	width: 						675px;
+	}
+#bgtop{
+	padding-bottom:				50px;
+	}
+#bgtop .left{
+	display:					block;
+	width:						250px;
+	float:						left;
+	}
+#bgtop .right{
+	display:					block;
+	width:						400px;
+	float:						left;
+	text-align: 				right;
+	}
+#bgtop h3{
+	display:					block;
+	width:						400px;
+	text-align:					right;
+	float:						right;
+	}
+#bgmid{
+	padding-bottom:				50px;
+	}
+#bgbot{
+	padding-bottom:				50px;
+	font-size:					12px;
+	}
+.clearfloat{
+	clear:						both;
+	}
+#copyright{
+	float:						left;
+	}
+p{
+	padding-bottom:				0;
+	}
+.ques{
+	padding:					10px;
+	border-bottom:				1px dotted #000;
+	}
+.first{
+	border-top:				1px dotted #000;
+	}
+.ques .l{
+	display:					block;
+	width:						250px;
+	float:						left;
+	padding:					0;
+	font-size:					14px;
+	}
+.ques .i{
+	display:					block;
+	width:						400px;
+	float:						left;
+	padding:					0;
+	font-size:					18px;
+	}
+label{
+	font-size:					14px;
+	line-height:				16px;
+	padding:					0;
+	}
+#wo .right p#notifyp label, #wo .right p#enterp label{
+	display:					inline-block;
+	width:						170px;
+	}
+#wo p#notifyp input, #wo p#enterp input{
+	width:						30px;
+	height:						25px;
+	}
+#wo form.wo h3, #wo div.wo h3{
+	padding-top:				20px;
+	}
+form#unitform .submitbtn{
+	background-color:			#df7130;
+	border:						none;
+	width:						150px;
+	color:						#fff;
+	padding:					0 5px;
+	}
+form#unitform .submitbtn:hover{
+	color:						#4c4740;
+	}
+form.wo fieldset, div.wo fieldset{
+	margin:						20px 0;
+	border:						1px dashed #4c4740;
+	background-color:			#f2f2e6;
+	padding:					10px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.wo fieldset legend, div.wo fieldset legend{
+	font-size:					1.2em;
+	font-weight:				bold;
+	color:						#df7130;
+	background-color:			#f2f2e6;
+	width:						200px;
+	padding:					10px 15px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	}
+form.wo .request, div.wo .request{
+	background-color:			#f2f2e6;
+	padding:					10px;
+	-moz-border-radius:			10px;
+	-webkit-border-radius:		10px;
+	width:						710px;
+	font-size:					.8em;
+	}
+.checks{
+	padding:					3px 10px;
+	}
