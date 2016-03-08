@@ -49,7 +49,7 @@ if(empty($_POST)){
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/vm.js"></script>
 	<?php include('meta.php'); ?>
-	<?php include('analytics.php'); ?>
+	<?php //include('analytics.php'); ?>
 </head>
 <body>
 <!-- ============================================================== TOP -->
